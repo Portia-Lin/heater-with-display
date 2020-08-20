@@ -200,7 +200,7 @@ void changeState() {
       tft.setTextColor(ST77XX_RED);
       tft.print("STOP");
       digitalWrite(H_OUTPUT, HIGH);
-      Serial.println("Heater is start with parameters:");
+      Serial.println("Heater is enabled with parameters:");
       Serial.println("Required temperature: " + String(temperature) + "(*C)");
       Serial.println("Enable after: " + String(startTime) + "(m)");
       Serial.println("Selected mode: " + String(mode));
